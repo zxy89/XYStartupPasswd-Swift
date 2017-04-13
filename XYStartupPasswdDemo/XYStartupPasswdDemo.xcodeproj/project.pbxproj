@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12C14BFE9C952EA563FA1208 /* Pods_XYStartupPasswdDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C038D3A5A4B2A75FA90108 /* Pods_XYStartupPasswdDemo.framework */; };
+		4E0D45481E9F66D60041DC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45471E9F66D60041DC9C /* AppDelegate.swift */; };
+		4E0D454A1E9F66D60041DC9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45491E9F66D60041DC9C /* ViewController.swift */; };
+		4E0D454D1E9F66D60041DC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D454B1E9F66D60041DC9C /* Main.storyboard */; };
+		4E0D454F1E9F66D60041DC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D454E1E9F66D60041DC9C /* Assets.xcassets */; };
+		4E0D45521E9F66D60041DC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D45501E9F66D60041DC9C /* LaunchScreen.storyboard */; };
+		4E0D455D1E9F66D60041DC9C /* XYStartupPasswdDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D455C1E9F66D60041DC9C /* XYStartupPasswdDemoTests.swift */; };
+		4E0D45681E9F66D60041DC9C /* XYStartupPasswdDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45671E9F66D60041DC9C /* XYStartupPasswdDemoUITests.swift */; };
+		4E0D45781E9F67800041DC9C /* ImportHeaderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45761E9F67800041DC9C /* ImportHeaderFile.swift */; };
+		4E0D45791E9F67800041DC9C /* XYGlobalParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45771E9F67800041DC9C /* XYGlobalParameters.swift */; };
+		4E0D45821E9F67990041DC9C /* XYCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D457C1E9F67990041DC9C /* XYCircle.swift */; };
+		4E0D45831E9F67990041DC9C /* XYCircleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D457D1E9F67990041DC9C /* XYCircleInfoView.swift */; };
+		4E0D45841E9F67990041DC9C /* XYGesturePasswdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D457E1E9F67990041DC9C /* XYGesturePasswdView.swift */; };
+		4E0D45851E9F67990041DC9C /* XYLockLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D457F1E9F67990041DC9C /* XYLockLable.swift */; };
+		4E0D45861E9F67990041DC9C /* XYTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45811E9F67990041DC9C /* XYTouchID.swift */; };
+		4E0D458A1E9F68230041DC9C /* setter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E0D45891E9F68230041DC9C /* setter.plist */; };
+		4E0D459A1E9F685A0041DC9C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D458E1E9F685A0041DC9C /* BaseViewController.swift */; };
+		4E0D459B1E9F685A0041DC9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45911E9F685A0041DC9C /* MainViewController.swift */; };
+		4E0D459C1E9F685A0041DC9C /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45931E9F685A0041DC9C /* MyViewController.swift */; };
+		4E0D459D1E9F685A0041DC9C /* SetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45951E9F685A0041DC9C /* SetterViewController.swift */; };
+		4E0D459E1E9F685A0041DC9C /* DrawGesturePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45971E9F685A0041DC9C /* DrawGesturePasswordViewController.swift */; };
+		4E0D459F1E9F685A0041DC9C /* GestureVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45981E9F685A0041DC9C /* GestureVerifyViewController.swift */; };
+		4E0D45A01E9F685A0041DC9C /* StartupPasswdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45991E9F685A0041DC9C /* StartupPasswdViewController.swift */; };
+		4E0D45A51E9F68600041DC9C /* SetterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0D45A41E9F68600041DC9C /* SetterTableViewCell.swift */; };
+		D4D9FB83F940ECF7355093D1 /* Pods_XYStartupPasswdDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676223EAD9CF1808D7EF5F1E /* Pods_XYStartupPasswdDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E0D45591E9F66D60041DC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E0D453C1E9F66D60041DC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0D45431E9F66D60041DC9C;
+			remoteInfo = XYStartupPasswdDemo;
+		};
+		4E0D45641E9F66D60041DC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E0D453C1E9F66D60041DC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E0D45431E9F66D60041DC9C;
+			remoteInfo = XYStartupPasswdDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E0D45441E9F66D60041DC9C /* XYStartupPasswdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYStartupPasswdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D45471E9F66D60041DC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E0D45491E9F66D60041DC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E0D454C1E9F66D60041DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E0D454E1E9F66D60041DC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E0D45511E9F66D60041DC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E0D45531E9F66D60041DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0D45581E9F66D60041DC9C /* XYStartupPasswdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYStartupPasswdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D455C1E9F66D60041DC9C /* XYStartupPasswdDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYStartupPasswdDemoTests.swift; sourceTree = "<group>"; };
+		4E0D455E1E9F66D60041DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0D45631E9F66D60041DC9C /* XYStartupPasswdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYStartupPasswdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0D45671E9F66D60041DC9C /* XYStartupPasswdDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYStartupPasswdDemoUITests.swift; sourceTree = "<group>"; };
+		4E0D45691E9F66D60041DC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0D45761E9F67800041DC9C /* ImportHeaderFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportHeaderFile.swift; sourceTree = "<group>"; };
+		4E0D45771E9F67800041DC9C /* XYGlobalParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYGlobalParameters.swift; sourceTree = "<group>"; };
+		4E0D457C1E9F67990041DC9C /* XYCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYCircle.swift; sourceTree = "<group>"; };
+		4E0D457D1E9F67990041DC9C /* XYCircleInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYCircleInfoView.swift; sourceTree = "<group>"; };
+		4E0D457E1E9F67990041DC9C /* XYGesturePasswdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYGesturePasswdView.swift; sourceTree = "<group>"; };
+		4E0D457F1E9F67990041DC9C /* XYLockLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYLockLable.swift; sourceTree = "<group>"; };
+		4E0D45811E9F67990041DC9C /* XYTouchID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYTouchID.swift; sourceTree = "<group>"; };
+		4E0D45891E9F68230041DC9C /* setter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setter.plist; sourceTree = "<group>"; };
+		4E0D458E1E9F685A0041DC9C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4E0D45911E9F685A0041DC9C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4E0D45931E9F685A0041DC9C /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		4E0D45951E9F685A0041DC9C /* SetterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetterViewController.swift; sourceTree = "<group>"; };
+		4E0D45971E9F685A0041DC9C /* DrawGesturePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawGesturePasswordViewController.swift; sourceTree = "<group>"; };
+		4E0D45981E9F685A0041DC9C /* GestureVerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureVerifyViewController.swift; sourceTree = "<group>"; };
+		4E0D45991E9F685A0041DC9C /* StartupPasswdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupPasswdViewController.swift; sourceTree = "<group>"; };
+		4E0D45A41E9F68600041DC9C /* SetterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetterTableViewCell.swift; sourceTree = "<group>"; };
+		57C038D3A5A4B2A75FA90108 /* Pods_XYStartupPasswdDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYStartupPasswdDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		676223EAD9CF1808D7EF5F1E /* Pods_XYStartupPasswdDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYStartupPasswdDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFB77340D139F82051AE901 /* Pods-XYStartupPasswdDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYStartupPasswdDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYStartupPasswdDemoTests/Pods-XYStartupPasswdDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9957F67AACF4185CB0CA2B /* Pods-XYStartupPasswdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYStartupPasswdDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYStartupPasswdDemo/Pods-XYStartupPasswdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C2246E270753BA862925A35B /* Pods-XYStartupPasswdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYStartupPasswdDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYStartupPasswdDemo/Pods-XYStartupPasswdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C6530BB7261F9AFB993CCE /* Pods-XYStartupPasswdDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYStartupPasswdDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYStartupPasswdDemoTests/Pods-XYStartupPasswdDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E0D45411E9F66D60041DC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C14BFE9C952EA563FA1208 /* Pods_XYStartupPasswdDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D45551E9F66D60041DC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D9FB83F940ECF7355093D1 /* Pods_XYStartupPasswdDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D45601E9F66D60041DC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E0D453B1E9F66D60041DC9C = {
+			isa = PBXGroup;
+			children = (
+				4E0D45461E9F66D60041DC9C /* XYStartupPasswdDemo */,
+				4E0D455B1E9F66D60041DC9C /* XYStartupPasswdDemoTests */,
+				4E0D45661E9F66D60041DC9C /* XYStartupPasswdDemoUITests */,
+				4E0D45451E9F66D60041DC9C /* Products */,
+				A556395F777A5103B6163397 /* Pods */,
+				776370C8CFD9AF11DE19AEB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E0D45451E9F66D60041DC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45441E9F66D60041DC9C /* XYStartupPasswdDemo.app */,
+				4E0D45581E9F66D60041DC9C /* XYStartupPasswdDemoTests.xctest */,
+				4E0D45631E9F66D60041DC9C /* XYStartupPasswdDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E0D45461E9F66D60041DC9C /* XYStartupPasswdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45471E9F66D60041DC9C /* AppDelegate.swift */,
+				4E0D45751E9F67800041DC9C /* ImportHeaderFile */,
+				4E0D458C1E9F68400041DC9C /* Inheritance */,
+				4E0D458B1E9F682D0041DC9C /* Category */,
+				4E0D457A1E9F67990041DC9C /* Tools */,
+				4E0D45871E9F68230041DC9C /* LocalStorage */,
+				4E0D458D1E9F685A0041DC9C /* ViewControllers */,
+				4E0D45A11E9F68600041DC9C /* Views */,
+				4E0D45491E9F66D60041DC9C /* ViewController.swift */,
+				4E0D454B1E9F66D60041DC9C /* Main.storyboard */,
+				4E0D454E1E9F66D60041DC9C /* Assets.xcassets */,
+				4E0D45501E9F66D60041DC9C /* LaunchScreen.storyboard */,
+				4E0D45531E9F66D60041DC9C /* Info.plist */,
+			);
+			path = XYStartupPasswdDemo;
+			sourceTree = "<group>";
+		};
+		4E0D455B1E9F66D60041DC9C /* XYStartupPasswdDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D455C1E9F66D60041DC9C /* XYStartupPasswdDemoTests.swift */,
+				4E0D455E1E9F66D60041DC9C /* Info.plist */,
+			);
+			path = XYStartupPasswdDemoTests;
+			sourceTree = "<group>";
+		};
+		4E0D45661E9F66D60041DC9C /* XYStartupPasswdDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45671E9F66D60041DC9C /* XYStartupPasswdDemoUITests.swift */,
+				4E0D45691E9F66D60041DC9C /* Info.plist */,
+			);
+			path = XYStartupPasswdDemoUITests;
+			sourceTree = "<group>";
+		};
+		4E0D45751E9F67800041DC9C /* ImportHeaderFile */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45761E9F67800041DC9C /* ImportHeaderFile.swift */,
+				4E0D45771E9F67800041DC9C /* XYGlobalParameters.swift */,
+			);
+			path = ImportHeaderFile;
+			sourceTree = "<group>";
+		};
+		4E0D457A1E9F67990041DC9C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D457B1E9F67990041DC9C /* XYGesturePasswd */,
+				4E0D45801E9F67990041DC9C /* XYTouchIDTool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4E0D457B1E9F67990041DC9C /* XYGesturePasswd */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D457C1E9F67990041DC9C /* XYCircle.swift */,
+				4E0D457D1E9F67990041DC9C /* XYCircleInfoView.swift */,
+				4E0D457E1E9F67990041DC9C /* XYGesturePasswdView.swift */,
+				4E0D457F1E9F67990041DC9C /* XYLockLable.swift */,
+			);
+			path = XYGesturePasswd;
+			sourceTree = "<group>";
+		};
+		4E0D45801E9F67990041DC9C /* XYTouchIDTool */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45811E9F67990041DC9C /* XYTouchID.swift */,
+			);
+			path = XYTouchIDTool;
+			sourceTree = "<group>";
+		};
+		4E0D45871E9F68230041DC9C /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45881E9F68230041DC9C /* Plist */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		4E0D45881E9F68230041DC9C /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45891E9F68230041DC9C /* setter.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		4E0D458B1E9F682D0041DC9C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4E0D458C1E9F68400041DC9C /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		4E0D458D1E9F685A0041DC9C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D458E1E9F685A0041DC9C /* BaseViewController.swift */,
+				4E0D458F1E9F685A0041DC9C /* GuidePageVc */,
+				4E0D45901E9F685A0041DC9C /* MainVc */,
+				4E0D45921E9F685A0041DC9C /* MyVc */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4E0D458F1E9F685A0041DC9C /* GuidePageVc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GuidePageVc;
+			sourceTree = "<group>";
+		};
+		4E0D45901E9F685A0041DC9C /* MainVc */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45911E9F685A0041DC9C /* MainViewController.swift */,
+			);
+			path = MainVc;
+			sourceTree = "<group>";
+		};
+		4E0D45921E9F685A0041DC9C /* MyVc */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45931E9F685A0041DC9C /* MyViewController.swift */,
+				4E0D45941E9F685A0041DC9C /* SetterVc */,
+			);
+			path = MyVc;
+			sourceTree = "<group>";
+		};
+		4E0D45941E9F685A0041DC9C /* SetterVc */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45951E9F685A0041DC9C /* SetterViewController.swift */,
+				4E0D45961E9F685A0041DC9C /* StartupPasswdVc */,
+			);
+			path = SetterVc;
+			sourceTree = "<group>";
+		};
+		4E0D45961E9F685A0041DC9C /* StartupPasswdVc */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45971E9F685A0041DC9C /* DrawGesturePasswordViewController.swift */,
+				4E0D45981E9F685A0041DC9C /* GestureVerifyViewController.swift */,
+				4E0D45991E9F685A0041DC9C /* StartupPasswdViewController.swift */,
+			);
+			path = StartupPasswdVc;
+			sourceTree = "<group>";
+		};
+		4E0D45A11E9F68600041DC9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45A21E9F68600041DC9C /* My */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E0D45A21E9F68600041DC9C /* My */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45A31E9F68600041DC9C /* Setter */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		4E0D45A31E9F68600041DC9C /* Setter */ = {
+			isa = PBXGroup;
+			children = (
+				4E0D45A41E9F68600041DC9C /* SetterTableViewCell.swift */,
+			);
+			path = Setter;
+			sourceTree = "<group>";
+		};
+		776370C8CFD9AF11DE19AEB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57C038D3A5A4B2A75FA90108 /* Pods_XYStartupPasswdDemo.framework */,
+				676223EAD9CF1808D7EF5F1E /* Pods_XYStartupPasswdDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A556395F777A5103B6163397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2246E270753BA862925A35B /* Pods-XYStartupPasswdDemo.debug.xcconfig */,
+				BF9957F67AACF4185CB0CA2B /* Pods-XYStartupPasswdDemo.release.xcconfig */,
+				7DFB77340D139F82051AE901 /* Pods-XYStartupPasswdDemoTests.debug.xcconfig */,
+				F3C6530BB7261F9AFB993CCE /* Pods-XYStartupPasswdDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E0D45431E9F66D60041DC9C /* XYStartupPasswdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0D456C1E9F66D60041DC9C /* Build configuration list for PBXNativeTarget "XYStartupPasswdDemo" */;
+			buildPhases = (
+				1CDC3F758BC2239024AA99E5 /* [CP] Check Pods Manifest.lock */,
+				4E0D45401E9F66D60041DC9C /* Sources */,
+				4E0D45411E9F66D60041DC9C /* Frameworks */,
+				4E0D45421E9F66D60041DC9C /* Resources */,
+				668DF73191FEDDF6972957CF /* [CP] Embed Pods Frameworks */,
+				1952550CC5B99140DB7FAD2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYStartupPasswdDemo;
+			productName = XYStartupPasswdDemo;
+			productReference = 4E0D45441E9F66D60041DC9C /* XYStartupPasswdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E0D45571E9F66D60041DC9C /* XYStartupPasswdDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0D456F1E9F66D60041DC9C /* Build configuration list for PBXNativeTarget "XYStartupPasswdDemoTests" */;
+			buildPhases = (
+				046F15336991A3333FCB61FB /* [CP] Check Pods Manifest.lock */,
+				4E0D45541E9F66D60041DC9C /* Sources */,
+				4E0D45551E9F66D60041DC9C /* Frameworks */,
+				4E0D45561E9F66D60041DC9C /* Resources */,
+				35C85B62A38F7FD574EAA724 /* [CP] Embed Pods Frameworks */,
+				5F4AF3D5D150A762F20564F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0D455A1E9F66D60041DC9C /* PBXTargetDependency */,
+			);
+			name = XYStartupPasswdDemoTests;
+			productName = XYStartupPasswdDemoTests;
+			productReference = 4E0D45581E9F66D60041DC9C /* XYStartupPasswdDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E0D45621E9F66D60041DC9C /* XYStartupPasswdDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0D45721E9F66D60041DC9C /* Build configuration list for PBXNativeTarget "XYStartupPasswdDemoUITests" */;
+			buildPhases = (
+				4E0D455F1E9F66D60041DC9C /* Sources */,
+				4E0D45601E9F66D60041DC9C /* Frameworks */,
+				4E0D45611E9F66D60041DC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E0D45651E9F66D60041DC9C /* PBXTargetDependency */,
+			);
+			name = XYStartupPasswdDemoUITests;
+			productName = XYStartupPasswdDemoUITests;
+			productReference = 4E0D45631E9F66D60041DC9C /* XYStartupPasswdDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E0D453C1E9F66D60041DC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zxy;
+				TargetAttributes = {
+					4E0D45431E9F66D60041DC9C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					4E0D45571E9F66D60041DC9C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E0D45431E9F66D60041DC9C;
+					};
+					4E0D45621E9F66D60041DC9C = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E0D45431E9F66D60041DC9C;
+					};
+				};
+			};
+			buildConfigurationList = 4E0D453F1E9F66D60041DC9C /* Build configuration list for PBXProject "XYStartupPasswdDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E0D453B1E9F66D60041DC9C;
+			productRefGroup = 4E0D45451E9F66D60041DC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E0D45431E9F66D60041DC9C /* XYStartupPasswdDemo */,
+				4E0D45571E9F66D60041DC9C /* XYStartupPasswdDemoTests */,
+				4E0D45621E9F66D60041DC9C /* XYStartupPasswdDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E0D45421E9F66D60041DC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0D45521E9F66D60041DC9C /* LaunchScreen.storyboard in Resources */,
+				4E0D458A1E9F68230041DC9C /* setter.plist in Resources */,
+				4E0D454F1E9F66D60041DC9C /* Assets.xcassets in Resources */,
+				4E0D454D1E9F66D60041DC9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D45561E9F66D60041DC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D45611E9F66D60041DC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046F15336991A3333FCB61FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1952550CC5B99140DB7FAD2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYStartupPasswdDemo/Pods-XYStartupPasswdDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CDC3F758BC2239024AA99E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35C85B62A38F7FD574EAA724 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYStartupPasswdDemoTests/Pods-XYStartupPasswdDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4AF3D5D150A762F20564F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYStartupPasswdDemoTests/Pods-XYStartupPasswdDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668DF73191FEDDF6972957CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYStartupPasswdDemo/Pods-XYStartupPasswdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E0D45401E9F66D60041DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0D45A01E9F685A0041DC9C /* StartupPasswdViewController.swift in Sources */,
+				4E0D45A51E9F68600041DC9C /* SetterTableViewCell.swift in Sources */,
+				4E0D454A1E9F66D60041DC9C /* ViewController.swift in Sources */,
+				4E0D459B1E9F685A0041DC9C /* MainViewController.swift in Sources */,
+				4E0D45831E9F67990041DC9C /* XYCircleInfoView.swift in Sources */,
+				4E0D45791E9F67800041DC9C /* XYGlobalParameters.swift in Sources */,
+				4E0D45481E9F66D60041DC9C /* AppDelegate.swift in Sources */,
+				4E0D45841E9F67990041DC9C /* XYGesturePasswdView.swift in Sources */,
+				4E0D459A1E9F685A0041DC9C /* BaseViewController.swift in Sources */,
+				4E0D45861E9F67990041DC9C /* XYTouchID.swift in Sources */,
+				4E0D45821E9F67990041DC9C /* XYCircle.swift in Sources */,
+				4E0D459E1E9F685A0041DC9C /* DrawGesturePasswordViewController.swift in Sources */,
+				4E0D45851E9F67990041DC9C /* XYLockLable.swift in Sources */,
+				4E0D459D1E9F685A0041DC9C /* SetterViewController.swift in Sources */,
+				4E0D459C1E9F685A0041DC9C /* MyViewController.swift in Sources */,
+				4E0D45781E9F67800041DC9C /* ImportHeaderFile.swift in Sources */,
+				4E0D459F1E9F685A0041DC9C /* GestureVerifyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D45541E9F66D60041DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0D455D1E9F66D60041DC9C /* XYStartupPasswdDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E0D455F1E9F66D60041DC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0D45681E9F66D60041DC9C /* XYStartupPasswdDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E0D455A1E9F66D60041DC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0D45431E9F66D60041DC9C /* XYStartupPasswdDemo */;
+			targetProxy = 4E0D45591E9F66D60041DC9C /* PBXContainerItemProxy */;
+		};
+		4E0D45651E9F66D60041DC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E0D45431E9F66D60041DC9C /* XYStartupPasswdDemo */;
+			targetProxy = 4E0D45641E9F66D60041DC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E0D454B1E9F66D60041DC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E0D454C1E9F66D60041DC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E0D45501E9F66D60041DC9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E0D45511E9F66D60041DC9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E0D456A1E9F66D60041DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E0D456B1E9F66D60041DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E0D456D1E9F66D60041DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2246E270753BA862925A35B /* Pods-XYStartupPasswdDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYStartupPasswdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XY.XYStartupPasswdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E0D456E1E9F66D60041DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9957F67AACF4185CB0CA2B /* Pods-XYStartupPasswdDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XYStartupPasswdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XY.XYStartupPasswdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4E0D45701E9F66D60041DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DFB77340D139F82051AE901 /* Pods-XYStartupPasswdDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYStartupPasswdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XY.XYStartupPasswdDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYStartupPasswdDemo.app/XYStartupPasswdDemo";
+			};
+			name = Debug;
+		};
+		4E0D45711E9F66D60041DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C6530BB7261F9AFB993CCE /* Pods-XYStartupPasswdDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XYStartupPasswdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XY.XYStartupPasswdDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYStartupPasswdDemo.app/XYStartupPasswdDemo";
+			};
+			name = Release;
+		};
+		4E0D45731E9F66D60041DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XYStartupPasswdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XY.XYStartupPasswdDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XYStartupPasswdDemo;
+			};
+			name = Debug;
+		};
+		4E0D45741E9F66D60041DC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = XYStartupPasswdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XY.XYStartupPasswdDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = XYStartupPasswdDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E0D453F1E9F66D60041DC9C /* Build configuration list for PBXProject "XYStartupPasswdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D456A1E9F66D60041DC9C /* Debug */,
+				4E0D456B1E9F66D60041DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0D456C1E9F66D60041DC9C /* Build configuration list for PBXNativeTarget "XYStartupPasswdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D456D1E9F66D60041DC9C /* Debug */,
+				4E0D456E1E9F66D60041DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0D456F1E9F66D60041DC9C /* Build configuration list for PBXNativeTarget "XYStartupPasswdDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D45701E9F66D60041DC9C /* Debug */,
+				4E0D45711E9F66D60041DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E0D45721E9F66D60041DC9C /* Build configuration list for PBXNativeTarget "XYStartupPasswdDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0D45731E9F66D60041DC9C /* Debug */,
+				4E0D45741E9F66D60041DC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E0D453C1E9F66D60041DC9C /* Project object */;
+}

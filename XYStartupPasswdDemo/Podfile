@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target "XYStartupPasswdDemo" do
+pod 'SnapKit', '~> 3.0'
+pod 'SwiftyJSON'
+end
+
+target "XYStartupPasswdDemoTests" do
+
+end
