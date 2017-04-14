@@ -6,4 +6,4 @@
  
  */
 
-![image](https://github.com/zxy89/XYStartupPasswd-Swift/example1.png)
+![image](https://github.com/zxy89/XYStartupPasswd-Swift/raw/master/example1.png)
